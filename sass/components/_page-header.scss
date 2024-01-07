@@ -1,0 +1,132 @@
+/*================== PAGE-HEADER ====================== */
+.page-header {
+display:block;
+position: relative;
+padding: 0;
+margin: 0 auto 0 auto;
+// margin-left: auto;
+// margin-right: auto;
+// margin-top: 0px;
+   overflow:hidden;
+   justify-content: center;
+   
+      @media screen and (min-width: 1200px) { 
+       display: flexbox;
+      // background-size: contain;
+         // 	background-position: center;
+         // 	background-attachment: fixed;
+      // object-fit:contain;
+      max-width: 1600px;
+      
+   }}
+
+       .bubble-head {
+   z-index: -1;
+      min-width: 270px;
+
+      position: fixed;
+      width: 100%;
+   
+          @media screen and (min-width: 1200px) {
+             position: absolute;
+   margin-top: -200px;
+          }
+         }
+
+.bg-color__head {
+   background-color: $video-color;
+   height: 935px;
+
+@media (min-device-pixel-ratio: 2) and (max-width: 767px),
+   (min-resolution: 192dpi) and (max-width: 767px),
+   (min-resolution: 2dppx) and (max-width: 767px) {
+
+   }
+   
+@media screen and (min-width: 768px) {
+   height: 1370px;
+      	
+   }
+
+@media screen and (min-width: 768px) {
+ 	height: 1370px;
+   }
+   
+@media
+(min-device-pixel-ratio: 2) and (min-width: 768px),
+(min-resolution: 192dpi) and (min-width: 768px),
+(min-resolution: 2dppx) and (min-width: 768px){
+   
+   height: 1370px;
+	}
+
+@media screen and (min-width: 1200px) {
+   height: 820px;
+    }
+	
+    @media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+   	(min-resolution: 192dpi) and (min-width: 1200px),
+   	(min-resolution: 2dppx) and (min-width: 1200px) {
+   height: 1180px;
+   
+}}
+
+
+
+
+
+
+// background-image: 
+// url("../img/background/background-desktop-mobil.jpg");
+// 	height: 935px;
+// 	background-size: cover;
+// 	background-position: center;
+// 	background-attachment: fixed;
+// 	margin-left: auto;
+// 	margin-right: auto;
+// 	// padding-top: 50px;
+// 	// border: 2px dashed tomato;
+	
+
+// 	@media (min-device-pixel-ratio: 2) and (max-width: 767px),
+// 	(min-resolution: 192dpi) and (max-width: 767px),
+// 	(min-resolution: 2dppx) and (max-width: 767px) {
+// 	// padding-top: 20px;
+// 	background-image:
+// 	url("../img/background/background-desktop-mobil@2x.jpg");
+// 	}
+
+// 	@media screen and (min-width: 768px) {
+// 	height: 1370px;
+// 	background-image:
+// 	url("../img/background/background-desktop-tablet.jpg");
+// 	}
+
+// 	@media
+// 	(min-device-pixel-ratio: 2) and (min-width: 768px),
+// 	(min-resolution: 192dpi) and (min-width: 768px),
+// 	(min-resolution: 2dppx) and (min-width: 768px){
+
+// 	height: 1370px;
+// 	background-image:
+// 	url("../img/background/background-desktop-tablet@2x.jpg");
+// 	}
+
+
+
+// 	@media screen and (min-width: 1200px) {
+// 	max-width: 1600px;
+// 	height: 820px;
+// 	background-image:
+// 	url("../img/background/background-desktop.jpg");
+// 	}
+	
+// 	@media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+// 	(min-resolution: 192dpi) and (min-width: 1200px),
+// 	(min-resolution: 2dppx) and (min-width: 1200px) {
+// 		height: 1180px;
+// 	background-image:
+// 	url("../img/background/background-desktop@2x.jpg");
+// 	}
+// }
+
