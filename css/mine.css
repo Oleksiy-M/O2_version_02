@@ -117,10 +117,10 @@ body {
 
 .bg-nav {
   display: flex;
-  background-color: #202045;
   justify-self: start;
   justify-content: center;
   align-items: end;
+  background-color: #202045;
   padding: 15px 0 10px 0;
   width: 100%;
   position: fixed;
@@ -128,7 +128,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .bg-nav {
-    display: flexbox;
+    display: flex;
     justify-content: space-between;
     position: static;
     max-width: 1600px;
