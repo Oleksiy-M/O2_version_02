@@ -58,8 +58,9 @@
 
 .idustry-hero__heading {
    // height: 85px;
+   padding: 5px 0px;
    color: aqua;
-   // border-radius: 5px;
+   // border-radius: 25px;
    text-shadow: 2px 1px 10px black;
    text-transform: uppercase;
    text-align: center;
@@ -67,10 +68,10 @@
    font-size: 13px;
    line-height: 1.86;
    letter-spacing: 0.26em;
-   transition-duration: 0.5s;
+   // 
 
-   box-shadow: 0px 7px 6px -6px $svg-color;
-   border-bottom: 2px solid $svg-color;
+   // box-shadow: 0px 7px 6px -6px $svg-color;
+   // border-bottom: 2px solid $svg-color;
 
    @media screen and (min-width: 1200px) {
       padding: 5px 20px;
@@ -82,24 +83,35 @@
    }
 }
 
+.head-border {
+   // transition-duration: 0.5s;
+   transition: $animation-card;
+   height: 2px;
+   border-bottom: 2px solid $svg-color;
 
+   .section-hero:hover &,
+   .section-hero:focus & {
+      box-shadow: 0px 3px 10px 2px $svg-color;
+   }
+}
 
 
 .develo-eco__box {
    display: flex;
    align-items: center;
-   margin: 0 35px 50px 35px;
+   margin: 0 30px 50px 30px;
 
    text-align: center;
    height: 45px;
    border-radius: 15px;
 
    transition-duration: 0.5s;
-   border-bottom: 1px solid $line-color;
+   border-bottom: 1px solid $Secondary-text-color;
 
    &:hover,
    &:focus {
-      box-shadow: 0px 1px 4px 0px $line-color;
+      box-shadow: 0px 1px 4px 0px $Secondary-text-color;
+      background-color: rgba(63, 104, 240, 0.14);
    }
 
 
@@ -128,6 +140,7 @@
    &:hover,
    &:focus {
       font-size: 12px;
+
    }
 
    @media screen and (min-width: 1200px) {
@@ -177,11 +190,12 @@
    height: 45px;
    transform: translateY(135px);
    transition-duration: 0.5s;
-   border-bottom: 1px solid $line-color;
+   border-bottom: 1px solid $Secondary-text-color;
 
    &:hover,
    &:focus {
-      box-shadow: 0px 1px 4px 0px $line-color;
+      box-shadow: 0px 1px 4px 0px $Secondary-text-color;
+      background-color: rgba(63, 104, 240, 0.14);
    }
 
    @media screen and (min-width: 1200px) {
